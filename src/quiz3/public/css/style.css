@@ -1,0 +1,112 @@
+body {
+    background-image: url(../img/pattern.jpg);
+    font-family: 'Slabo 27px', serif;
+    margin: 0px;
+    
+}
+
+header {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    position: relative;
+    top: 70px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.about{
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+    top: 70px;
+    padding: 20px;
+    margin-bottom: 100px;   
+}
+.back{
+    background-color: white;
+}
+.login{
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+    top: 70px;
+    padding: 20px;
+    margin-bottom: 100px;      
+}
+.MovieListEditor{
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    top: 70px;
+    padding: 20px;
+    margin-bottom: 100px;    
+}
+.list{
+    background-color: white;
+    padding: 0;
+    width:100%;
+    margin: 0 auto;
+}
+tr {
+    border: 1px solid;
+}
+td{
+    background-color: bisque;
+}
+th{
+   background-color: aquamarine;
+}
+table{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    border-bottom: 1px solid lightgrey;
+}
+
+h5 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
