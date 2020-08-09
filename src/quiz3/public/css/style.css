@@ -96,6 +96,14 @@ h5 {
     text-align: center;
 }
 
+form{
+    background-color: cornsilk;
+    padding: 20px;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
 footer {
     display: flex;
     position: relative;

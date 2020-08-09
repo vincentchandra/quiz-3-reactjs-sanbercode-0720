@@ -153,7 +153,7 @@ const MovieListEditor = () => {
                         })}   
                     </table>
                     </div>
-                    <form style={{width:"100%"}} onSubmit={handleSubmit}>
+                    <form onSubmit={handleSubmit}>
                     <div style={{textAlign:"center", marginBottom:"10px"}}>
                         <label>Title: </label>
                         <input type="text" value={inputTitle} onChange={handleChangeTitle}/>
